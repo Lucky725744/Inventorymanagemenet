@@ -8,7 +8,6 @@
                     rounded-2xl shadow-xl 
                     p-8">
 
-
             <!-- Header -->
             <div class="text-center mb-10">
 
@@ -23,11 +22,7 @@
                 </div>
 
 
-                <h1 class="text-3xl font-bold 
-                           text-gray-800 dark:text-white">
-                    Inventory Management
-                </h1>
-
+                <h1 class="text-3xl font-bold text-gray-800 dark:text-white">Inventory Management</h1>
 
                 <p class="mt-2 text-gray-500 dark:text-gray-300">
                     Login to your account
@@ -38,62 +33,34 @@
 
 
             <form @submit.prevent="login">
-
-
                 <!-- Email -->
                 <div class="mb-8">
-
                     <FloatLabel>
-
                         <InputText
                             id="email"
                             v-model="email"
-                            class="w-full 
-                                   dark:bg-gray-700 
-                                   dark:text-white"
+                            class="w-full dark:bg-gray-700 dark:text-white"
                         />
-
-                        <label for="email">
-                            Email Address
-                        </label>
-
+                        <label for="email">Email Address</label>
                     </FloatLabel>
-
                 </div>
-
-
 
                 <!-- Password -->
                 <div class="mb-8">
-
                     <FloatLabel>
-
                         <InputText
                             id="password"
                             type="password"
                             v-model="password"
-                            class="w-full
-                                   dark:bg-gray-700
-                                   dark:text-white"
+                            class="w-full dark:bg-gray-700 dark:text-white"
                         />
-
-                        <label for="password">
-                            Password
-                        </label>
-
+                        <label for="password">Password</label>
                     </FloatLabel>
-
                 </div>
-
-
-
 
                 <!-- Remember -->
                 <div class="flex justify-between items-center mb-6">
-
-
                     <div class="flex items-center">
-
                         <input
                             type="checkbox"
                             class="w-4 h-4 mr-2"
